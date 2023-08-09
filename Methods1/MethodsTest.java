@@ -15,6 +15,8 @@ public class MethodsTest {
             Num2 = sc.nextInt();
 
         System.out.println("The sum of Num1 and Num2 is : " + Add(Num1 , Num2));
+    
+        sc.close();
     }
     public static int Add(int Num1 , int Num2){
         return(Num1 + Num2);
