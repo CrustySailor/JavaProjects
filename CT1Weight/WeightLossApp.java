@@ -24,5 +24,6 @@ public class WeightLossApp {
 
         System.out.println("Your total weight los for 6 months were : " + rTotal + " kg");
         System.out.println("In " + iAbove + " Month(s) you lost more than the avrage weight ");
+        scan.close();
     }
 }

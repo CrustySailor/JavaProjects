@@ -1,5 +1,3 @@
-package TutorialAssessment1;
-
 import java.util.Scanner;
 
 public class MaritalStatus {
@@ -35,6 +33,6 @@ public class MaritalStatus {
             break;
         }
         System.out.println("Your marital satus is : " + description);
-
+        Keybaord.close();
     }
 }

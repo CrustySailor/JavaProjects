@@ -23,5 +23,6 @@ public class DetermineFinalMark {
             System.out.println("The final mark for student " + i + " = " + MarkFinal);
 
         }
+        Keyboard.close();
     }
 }
