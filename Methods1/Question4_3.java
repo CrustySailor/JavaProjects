@@ -14,6 +14,7 @@ public class Question4_3 {
         
             salMonth = calcMonthly(Salary);
         displaySalary(salMonth);
+    sc.close();
     }
     public static double calcMonthly(double AnnualSal){
         return(AnnualSal / 12);
